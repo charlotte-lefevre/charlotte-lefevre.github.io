@@ -212,7 +212,7 @@ a:hover {
   /*Pic only on one */
   @media (max-width: 30em) {
 
-    .display-container{
+    .about-container{
         display: block;
     }
 
@@ -232,7 +232,6 @@ a:hover {
       }
       
   } */
-
 
       
 
