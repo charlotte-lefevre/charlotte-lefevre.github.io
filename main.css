@@ -172,17 +172,20 @@ a:hover {
 
 
 /*   smaller screens */
-@media (max-width: 900px) {
+@media (max-width: 48em) {
     .profile-pic {
         max-width: 100%;
     }
     .about-text {
-        flex: 3;
+        flex: 1;
       }
+    .about-image {
+    max-width: 100px;
+    }
       
   }
 
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     .profile-pic {
         max-width: 100%;
     }
@@ -190,15 +193,9 @@ a:hover {
         flex: 2;
       }
       
-  }
+  } */
 
-@media (max-width: 700px) {
-
-    #content {
-        font-size: 3vw; 
-    }
 
       
-}
 
 
