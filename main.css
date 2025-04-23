@@ -1,0 +1,208 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    --primary-color: #56BCBE;
+    /* --primary-color-light: #cffbf8; */
+    --primary-color-dark: #3b9899;
+    --secondary-color: #98b4b2;
+    --secondary-color-darker: #506d6b;
+    --light-bg: #f6f6f6; 
+}
+
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    scroll-padding-top: 70px; /* Allows to offset (without it, when clicking it does not show the title) */
+
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;  /* Align to the top of the screen */
+    justify-content: center;  /* Center horizontally */
+}
+
+#content {
+    /* text-align: center; */
+    max-width: 90%;   /* Ensures the content does not overflow the viewport */
+    box-sizing: border-box;
+    /* font-size: 2vw;    */
+    font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+}
+h1 {
+    font-size: clamp(1.8rem, 5vw, 2.8rem); /* scales between 2rem and 3rem */
+  }
+  
+  h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+  
+
+
+.is_center{
+    text-align: center;
+
+}
+
+
+/* h1, h2, h3{
+    text-align: center;
+} */
+
+h2{
+    color: var(--primary-color-dark);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+
+
+
+
+.avatar {
+    border-radius: 10%;
+    max-width: 90%;  /* Ensures the image doesn't exceed 90% of the screen width */
+    height: auto;    /* Keeps the aspect ratio of the image intact */
+    display: block;  /* Makes the image a block element so you can apply margins */
+    margin: 0 auto;  /* Centers the image horizontally */
+}
+
+  
+
+
+
+
+
+.icons {
+    list-style-type: none;
+    font-size: xx-large;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 320px;
+    margin: 1em auto;
+}
+
+.icons li {
+    display: inline;
+    width: 42px;
+}
+
+.icons a {
+    color: black;
+}
+
+.icons a:hover {
+    color: var(--primary-color);
+}
+
+
+/* Style for the entire publication list */
+.publication-list {
+    /* list-style-type: none;   
+    list-style-type: disc; */
+    list-style-type: circle;
+}
+
+/* Style for each publication item */
+.publication-item {
+    margin-bottom: 15px;      /* Space between items */
+}
+
+/* Title in bold */
+.title {
+    font-weight: bold;
+    display: block;  /* Ensures title is displayed as a block-level element */
+}
+
+/* Authors in normal font */
+.authors {
+    font-weight: normal;
+    display: block;  /* Display authors as a block element */
+    margin-top: 5px;  /* Space between title and authors */
+}
+
+/* Journal name in italics */
+.journal-name {
+    font-style: italic;
+    display: block;  /* Display journal name as a block element */
+    margin-top: 5px;  /* Space between authors and journal name */
+}
+
+
+.links-paper{
+    /* text-align: center; */
+    display: block;
+    margin-top: 5px;  
+}
+
+.icon-spacing {
+    margin-left: 10px;
+  }
+
+
+/* About Section */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Stacks on small screens */
+  }
+  
+  .about-text {
+    flex: 5;
+    min-width: 280px;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 800px) {
+    .avatar {
+        max-width: 100%;
+    }
+    .about-text {
+        flex: 3;
+      }
+      
+  }
+
+  @media (max-width: 600px) {
+    .avatar {
+        max-width: 100%;
+    }
+    .about-text {
+        flex: 2;
+      }
+      
+  }
+
+
+@media (max-width: 700px) {
+
+    #content {
+        font-size: 3vw; 
+    }
+
+      
+}
+
+
