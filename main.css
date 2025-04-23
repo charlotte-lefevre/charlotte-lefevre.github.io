@@ -211,30 +211,34 @@ a:hover {
 
   /*Pic only on one */
   @media (max-width: 500px) {
-
-    .about-container{
-        display: block;
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 0;
     }
+  
     .about-text {
-        min-width: 100%;
-      }
-
+      width: 100%;
+      min-width: unset;
+    }
+  
     .about-image {
-        max-width: 55%;
-        justify-content: center;  
-   
-    }
-    .profile-pic{
-        text-align: center; 
-        vertical-align: middle;
-        margin:0;
-        padding:0;
-
-
-        
-    }
-      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 0; /* collapse */
+        overflow: visible; /* allow scaled image to spill out */
+      }
+  
+      .profile-pic {
+        max-width: 55%;      
+        height: auto;        
+        margin: 0 auto;      
+      }
   }
+  
 
 
   /* @media (max-width: 800px) {
