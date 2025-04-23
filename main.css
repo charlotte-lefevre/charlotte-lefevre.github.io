@@ -172,18 +172,56 @@ a:hover {
 
 
 /*   smaller screens */
-@media (max-width: 48em) {
+
+@media (max-width: 78em) {
+
+    .about-text {
+        flex: 4;
+      }
+
+    }
+
+@media (max-width: 60em) {
     .profile-pic {
         max-width: 100%;
     }
     .about-text {
-        flex: 1;
+        flex: 3;
+        max-width: 100%;
+      }
+
+    }
+@media (max-width: 48em) {
+
+    .about-text {
+        flex: 2;
+      }
+
+    /* .display-container{
+        display: block;
+    }
+    .about-text {
+        min-width: 100%;
       }
     .about-image {
-    max-width: 100px;
+    max-width: 150px;
+    } */
+      
+  }
+
+  /*Pic only on one */
+  @media (max-width: 30em) {
+
+    .display-container{
+        display: block;
+    }
+
+    .about-image {
+        max-width: 150px;
     }
       
   }
+
 
   /* @media (max-width: 800px) {
     .profile-pic {
