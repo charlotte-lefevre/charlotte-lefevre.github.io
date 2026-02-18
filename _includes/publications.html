@@ -1,0 +1,60 @@
+
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find them on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<ul class="publications-list">
+  {% for post in site.publications reversed %}
+    <li class="publication-item">
+      <strong>{{ post.title }}</strong><br />
+
+      {% if post.authors %}
+        <em>{{ post.authors }}</em><br />
+      {% endif %}
+
+      {% if post.venue %}
+        {{ post.venue }}<br />
+      {% endif %}
+
+      {% if post.misc %}
+      <strong>{{ post.misc }}</strong><br />
+      {% endif %}
+
+
+      {% comment %}Links with icons{% endcomment %}
+      {% assign links = "" %}
+
+      {% if post.paperurl %}
+        {% assign links = links | append: '<a href="' | append: post.paperurl | append: '" target="_blank"><i class="fas fa-file icon-spacing"></i></a>' %}
+      {% endif %}
+
+      {% if post.slidesurl %}
+        {% if links != "" %}
+          {% assign links = links | append: " " %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: post.slidesurl | append: '" target="_blank"><i class="fas fa-desktop icon-spacing"></i></a>' %}
+      {% endif %}
+
+      {% if post.eprint %}
+        {% if links != "" %}
+          {% assign links = links | append: " " %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: post.eprint | append: '" target="_blank"><i class="fas fa-link icon-spacing"></i></a>' %}
+      {% endif %}
+
+      {% if post.video %}
+      {% if links != "" %}
+        {% assign links = links | append: " " %}
+      {% endif %}
+      {% assign links = links | append: '<a href="' | append: post.video | append: '" target="_blank"><i class="fas fa-video icon-spacing"></i></a>' %}
+    {% endif %}
+
+
+
+      {{ links }}
+    </li>
+  {% endfor %}
+</ul>

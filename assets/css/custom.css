@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #56BCBE;
+    --primary-color-dark: #3b9899;
+    --secondary-color: #98b4b2;
+    --secondary-color-darker: #506d6b;
+  }
+  
+  /* Optional: tweak some elements for better contrast */
+  a {
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--primary-color-dark);
+  }
+  
+  .navbar {
+    background-color: var(--secondary-color);
+  }
+  
+  .navbar a {
+    color: white; /* or another color for contrast */
+  }
+  
+  .footer {
+    background-color: var(--secondary-color-darker);
+    color: white;
+  }
+  
+
+  /* Section headings */
+ h3, h4, h5, h6 {
+    color: var(--primary-color);
+    /* border-bottom-color: var(--primary-color); */
+  }
+
+h1, h2, h3 {
+    border-bottom-color: var(--primary-color) !important;
+  }
+  
+/* h1::after h2::after, h3::after {
+    border-bottom-color: var(--primary-color) !important;
+  } */

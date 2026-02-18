@@ -1,0 +1,56 @@
+{
+  "work": [],
+  "education": [
+    {
+      "institution": "Radboud University, Nijmegen, Netherlands",
+      "area": "Ph.D in provable security of permutation-based cryptography",
+      "studyType": "",
+      "startDate": "2021",
+      "endDate": "2026",
+      "gpa": null,
+      "courses": [],
+      "freedescr": "Supervisors: prof. dr. B.J.M. Mennink (daily supervisor) and prof. dr. J.J.C. Daemen (promotor)",
+      "distinction": "Cum laude (highest distinction)"
+
+    },
+    {
+      "institution": "University of Grenoble, France",
+      "area": "Master mathematics and applications, specialization cybersecurity",
+      "studyType": "",
+      "startDate": "2019",
+      "endDate": "2021",
+      "gpa": null,
+      "courses": [],
+      "freedescr": "Thesis: time-memory tradeoffs for large-weight syndrome decoding in ternary codes supervised by Pierre Karpman",
+      "distinction": "Mention très bien (highest distinction)"
+
+    },
+    {
+      "institution": "University of Grenoble, France",
+      "area": "B.S. (Licence) mathematics",
+      "studyType": "",
+      "startDate": "2017",
+      "endDate": "2019",
+      "gpa": null,
+      "courses": [],
+      "distinction": "Mention très bien (highest distinction)"
+    },
+    {
+      "institution": "University of Clermont-Ferrand, France",
+      "area": "DUT Mesures Physiques",
+      "studyType": "",
+      "startDate": "2015",
+      "endDate": "2017",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
+}
