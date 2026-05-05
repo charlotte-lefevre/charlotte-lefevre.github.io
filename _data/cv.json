@@ -2,6 +2,16 @@
   "work": [],
   "education": [
     {
+      "institution": "Irisa, Rennes, France",
+      "area": "Postdoctoral researcher",
+      "studyType": "",
+      "startDate": "2026",
+      "endDate": "Now",
+      "gpa": null,
+      "courses": [],
+      "freedescr": "Team Capsule"
+    },
+    {
       "institution": "Radboud University, Nijmegen, Netherlands",
       "area": "Ph.D in provable security of permutation-based cryptography",
       "studyType": "",

@@ -7,7 +7,9 @@ redirect_from:
   - /main.html
 ---
 
-I am in the [Digital Security Group](https://www.ru.nl/en/departments/institute-for-computing-and-information-sciences/digital-security) at [Radboud University Nijmegen](https://www.ru.nl/en) since September 2021, under the supervision of [Bart Mennink](https://www.bartmennink.nl) and with [Joan Daemen](https://cs.ru.nl/~joan/) as promotor. 
+I am a postdoctoral researcher in the [Capsule](https://team.inria.fr/capsule/) team at Irisa, Rennes, working with [Patrick Derbez](https://people.irisa.fr/Patrick.Derbez/).
+Previously, I was a PhD student in the [Digital Security Group](https://www.ru.nl/en/departments/institute-for-computing-and-information-sciences/digital-security) at [Radboud University Nijmegen](https://www.ru.nl/en) since under the supervision of [Bart Mennink](https://www.bartmennink.nl) and with [Joan Daemen](https://cs.ru.nl/~joan/) as promotor. 
+I defended my PhD thesis titled [Provable Security of Permutation-Based Cryptography](#phd) in February 2026.
 During my PhD, I had the opportunity to complete a 6-month internship at [CSEM](https://www.csem.ch/en/), under the supervision of [Damian Vizár](https://scholar.google.com/citations?user=e0xfui0AAAAJ&hl=en&oi=ao).
 Before that, I completed my Master's thesis at the [University of Grenoble](https://www.univ-grenoble-alpes.fr/english/home-628540.kjsp) under the supervision of [Pierre Karpman](https://membres-ljk.imag.fr/Pierre.Karpman/).
 Most of my current research focuses on the provable security of symmetric cryptographic schemes, particularly permutation-based ones. 

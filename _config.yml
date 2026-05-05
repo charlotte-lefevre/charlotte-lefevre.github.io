@@ -27,10 +27,10 @@ author:
   name             : "Charlotte Lefevre"
   pronouns         : # example: "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
-  location         : "Netherlands"
-  employer         : "Radboud University"
+  location         : "France"
+  employer         : "Irisa, Rennes"
   uri              : # URL
-  email            : "charlotte.lefevre@ru.nl" 
+  email            : "charlotte.lefevre@irisa.fr" 
 
   # Academic websites
   academia         : # URL
